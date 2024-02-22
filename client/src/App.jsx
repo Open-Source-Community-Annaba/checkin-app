@@ -394,13 +394,6 @@ export default function App() {
                     <span className="text-sm text-slate-900">
                       {student.occupation} - {student.affiliation}
                     </span>
-                    <span className="text-sm absolute m-2 top-0 right-0 text-red-600">
-                      <BookmarkIcon className="w-7 text-black"></BookmarkIcon>
-                    </span>
-                    <span className="text-xs absolute mx-5 my-3 top-0 right-0 text-red-600">
-                    {student.priority}
-                    </span>
-                    
                   </div>
                   <div
                     onClick={() => {
